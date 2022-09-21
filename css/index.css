@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* font-family: 'Rubik', sans-serif; */
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color:  #F7F8FA;
+   
+}
+
+.header{
+    background-color: #1AC073;
+    height: 100%;
+    color: white;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+.link, .icons{
+    display: flex;
+    justify-content: space-between;
+}
+.link p, .icons img{
+    margin-right: 15px;
+}
+.home{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+.heading{
+    font-size: 70px;
+    
+}
+.chef{
+    height: 525px;
+}
+.search-control{
+    width: 400px;
+    height: 60px;
+    margin-top: 2rem;
+    display: flex;
+    
+}
+
+.search-control input{
+  height: 48px;
+  width: 240px;
+  border: none;
+  padding-left: 13px;
+  padding-right: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.search-control button{
+    height: 50px;
+    width: 100px;
+    background-color: #F3BA00;
+    color: white;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.kitchen{
+   
+
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+}
+
+.pizza{
+    width: 277px;
+    height: 240px;
+}
+.items-row{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.item{
+   margin: 0 10px 0 10px;
+   background-color: white;
+   box-shadow: 0px 0px 1px 0px #BBBBBB40;
+
+}
+.k-text{
+   font-size: 25px;
+   font-family: 'Roboto', sans-serif;
+   line-height: 24px;
+   font-weight: 800;
+   margin-left: -10px;
+}
+.details{
+    
+}
+.details > div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.btn{
+    border: none;
+    background:none;
+}
+.price{
+    font-size: 12px;
+}
+.time{
+    padding: 0 4px;
+}
